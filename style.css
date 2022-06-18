@@ -1,0 +1,126 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html, body{
+background-color: #DDDDDF;
+}
+header{
+    background-color: #02527D;
+    
+}
+div#logo{
+    background-image: url('midias/logo1.png');
+    width: 350px;
+    height: 80px;
+    background-size: 100% 100%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.247);
+    padding-top: 30px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    margin-bottom: 10px;
+    margin: auto;
+}
+nav{
+    color: aliceblue;
+    text-decoration: none;
+    margin-top: 30px;
+    padding-right: 20px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.219) ;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.301);
+}
+nav > a{
+    color: aliceblue;
+    text-decoration: none;
+    margin-top: 10px;
+    padding-right: 20px;
+    font-size: 1.3em;
+    margin-left: 15px;
+
+}
+
+main{
+    max-width: 1000px;
+    background-color: aliceblue;
+    margin: auto;    
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.336);
+}
+div.ima{
+    background-size: 100% 100%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.247);
+    padding-top: 30px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+    padding-right: 0px;
+    margin-bottom: 10px;
+    margin: 10px;
+    border-radius: 15px;
+}
+div#gr{
+    background-image: url('midias/grupo.jpg');
+    width: 980px;
+    height: 400px;
+}
+div#g1{
+    background-image: url('midias/grupo1.jpg');
+    width: 980px;
+    height: 500px;
+}
+div#g2{
+    background-image: url('midias/rede.jpg');
+    width: 980px;
+    height: 500px;
+}
+h1.te{
+    font-size: 3em;
+    background-color: #02527D;
+    margin: 50px 0px 50px 0px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.267);
+}
+h1{
+    text-align: center;
+    font-size: 2.4em;
+    color: #FEC207;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.219) ;
+    padding: 20px;
+}
+h2{
+    text-align: center;
+    font-size: 1.9em;
+    color: #FEC207;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.219) ;
+    padding: 20px;
+}
+h3{
+    text-align: center;
+    font-size: 1.3em;
+    color: #b94840;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.219) ;
+    padding: 20px;
+    padding-top: 0px;
+}
+p#te{
+    padding: 0px 100px  ;
+}
+p.ta{
+    text-align: center;
+}
+p{
+    color: #4e5f70;
+    text-align: justify;
+    padding: 10px;
+    margin: auto;
+    font-size: 1.3em;
+}
+p#pf{
+    color: #DDDDDF;
+    text-align: center;
+}
+footer{
+    background-color: #02527D;
+
+    
+}
